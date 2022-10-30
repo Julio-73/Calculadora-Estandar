@@ -1,0 +1,125 @@
+
+form{
+width: 270px;
+height: 330px;
+text-align: center;
+
+border-radius: 10px;
+background-color: black;
+border: solid;
+padding-top: 1rem ;
+padding-bottom: 1rem;
+}
+
+.clase{
+width: 202px;
+height: 310px;
+border: solid, gray
+
+
+
+}
+
+.clase input[type=textfield]{
+
+    margin-top: 1rem;
+width: 188px;
+height: 2rem;
+font-size: 30px; 
+margin-bottom: 5px;
+
+border-radius: 5px;
+
+background-color: grey;
+border: solid;
+border-radius: 2rem;
+text-align: center;
+border: solid black;
+
+
+}
+
+.clase input[type=button]{
+margin-top: 5px;
+margin-left: 5px ;
+
+font-size: 2rem;
+padding: 8px;
+border-radius: 40%;
+color: white;
+background-color: grey;
+
+
+ }
+
+.clase input[type=reset]{
+
+
+  padding: 8px;
+  font-size: 2rem;
+  border-radius: 40%;
+  background-color: grey;
+  color: white;
+
+
+}
+       
+
+input{
+
+width: 40px;
+font-size: 1rem;
+cursor: pointer;
+border: solid black;
+padding: 5px;
+}
+
+
+.contenedor{
+
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-left:3rem;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h1:hover{
+
+    color: green;
+}
+
+.clase input[value= "+" ]{
+
+    background-color: orange;
+}
+
+.clase input[value="-" ]{
+    background-color: orange;
+}
+
+
+.clase input[value= "x"]{
+    background-color: orange;
+}
+
+.clase input[value="/"]{
+    background-color: orange;
+}
+
+.clase input[value= "0"]{
+
+    background-color: green;
+}
+.clase input[value="="]{
+
+    background-color:green ;
+}
+
+.clase input[value="C"]{
+    background-color: green;
+}
